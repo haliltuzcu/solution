@@ -1,13 +1,16 @@
-
-import "./Main.scss"
-
+import "./Main.scss";
+import { data } from "../../helpers/data";
+import Card from "./Card";
 
 const Main = () => {
-    return(
-        <div>
-            <h1>card</h1>
-        </div>
-    )
-}
+  console.log(data);
+  return (
+    <div className="card-container">
+      {data.map((item,index) => (
+        <Card {...item} key={index} />
+      ))}
+    </div>
+  );
+};
 
 export default Main;
