@@ -1,0 +1,10 @@
+@import "./scss/variables";
+@import "./scss/mixins";
+@import "./scss/reset";
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap');
+body{
+    font-family: 'Roboto Serif', serif;
+    background: rgb(41,37,37);
+background: linear-gradient(288deg, rgb(117, 112, 112) 44%, rgba(180,95,58,0.9501050420168067) 61%, rgba(252,176,69,1) 100%);
+}
